@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>送金完了</title>
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, sans-serif;
+  background: #f2f2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: white;
+  width: 90%;
+  max-width: 360px;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.status {
+  color: green;
+  font-size: 20px;
+}
+
+.amount {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.note {
+  font-size: 11px;
+  color: gray;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div id="loading">処理中...</div>
+<button onclick="reveal()">残高を確認</button>
+  </div>
+</body>
+</html>
